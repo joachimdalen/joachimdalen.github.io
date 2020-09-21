@@ -28,7 +28,7 @@ twitter_username: joachimdalen
 github_username: joachimdalen
 repository: joachimdalen/joachimdalen.github.io
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dark"
 search: true
 plugins:
