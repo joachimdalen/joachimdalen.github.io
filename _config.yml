@@ -27,8 +27,7 @@ url: "https://joachimdalen.no"
 twitter_username: joachimdalen
 github_username: joachimdalen
 repository: joachimdalen/joachimdalen.github.io
-# Build settings
-remote_theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.20.2"
 minimal_mistakes_skin: "dark"
 search: true
 plugins:
