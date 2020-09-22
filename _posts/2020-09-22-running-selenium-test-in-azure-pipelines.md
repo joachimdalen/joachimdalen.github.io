@@ -49,7 +49,7 @@ To run Selenium tests using the web driver, we will need a live environment to r
 - Write our Selenium tests
 - Configure our pipeline to run our tests
 
-All the code and configuration for this post are stored in my blog resources repository, so head over [here](https://github.com/joachimdalen/blog-resources/01-selenium-azure-pipelines) to see it on GitHub.
+All the code and configuration for this post are stored in my blog resources repository, so head over [here](https://github.com/joachimdalen/blog-resources/tree/master/01-selenium-azure-pipelines) to see it on GitHub.
 
 ## What will we be testing?
 
@@ -57,7 +57,7 @@ The application we will be testing is "ContosoUniversity" (although I've named m
 
 # Setting up the web app
 
-Before writing our tests we need to create our application. The testing setup will work for any website you can open in your browser. Therefore if you have an existing application you would like to test, you could do the Selenium implementation using that and just modify the needed parts. If you want to follow along with the StudentManagement solution, the best and quickest option would be to clone the [repository](https://github.com/joachimdalen/blog-resources/01-selenium-azure-pipelines) directly and just delete the `StudentManagement.FunctionalTests` project.
+Before writing our tests we need to create our application. The testing setup will work for any website you can open in your browser. Therefore if you have an existing application you would like to test, you could do the Selenium implementation using that and just modify the needed parts. If you want to follow along with the StudentManagement solution, the best and quickest option would be to clone the [repository](https://github.com/joachimdalen/blog-resources/tree/master/01-selenium-azure-pipelines) directly and just delete the `StudentManagement.FunctionalTests` project.
 
 You could also go through the tutorial listed above, although I have made a few minor changes to it. Primarily I just removed Courses and Enrollments since we will not be using that.
 
