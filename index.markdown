@@ -4,5 +4,9 @@
 
 
 layout: home
+entries_layout: grid
 author_profile: true
+paginate: 10
+paginate_path: /page:num/
+classes: wide
 ---
