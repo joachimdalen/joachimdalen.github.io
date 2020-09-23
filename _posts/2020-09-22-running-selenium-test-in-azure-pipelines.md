@@ -663,7 +663,7 @@ public abstract class BasePage
 
 Here we added a new parameter to send in the path, we added a property to store the path for the class and we added the method `TakeScreenshot` that will take the screenshot for us.
 
-:information_source: The attribute `CalledMemberName` passed in as the parameter to our method allows us to get the name of the method that calls our method. This means that we get the name of our test as the first part of our screenshot name. You'll see this in use a bit further down.
+:information_source: The attribute `CallerMemberName` passed in as the parameter to our method allows us to get the name of the method that calls our method. This means that we get the name of our test as the first part of our screenshot name. You'll see this in use a bit further down.
 {: .notice--info}
 
 Since we changed the constructor of our base page, we also need to update the constructor of our two other pages
