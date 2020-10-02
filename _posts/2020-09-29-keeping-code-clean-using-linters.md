@@ -336,6 +336,10 @@ export const RandomNumberCard = () : React.ReactElement => {
 
 If we now run the command `npm run ts:lint` for a third time we can see that no issues are found! Our code is now following the rules set by us in our configuration and we can proceed.
 
+## Prettier
+
+I am using prettier as VSCode plugin. You can also auto format all your files using the Prettier CLI with the command `prettier --write "src/**/*.tsx" "src/*.tsx" "**/**.css"` More on the prettier CLI can be found [here](https://prettier.io/docs/en/cli.html)
+
 # Run linters in our pipeline
 
 Having linting enabled in our app will do no good if we do not enforce it. There are several ways we can enforce it:
@@ -384,3 +388,7 @@ So, in this post we create a custom React module, we ensure our code is kept cle
 See you next time!
 
 // Joachim
+
+### Changes after publish
+
+2020-10-02: Clearified some usages of `prettier`
