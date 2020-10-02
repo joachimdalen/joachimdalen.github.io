@@ -389,6 +389,6 @@ See you next time!
 
 // Joachim
 
-### Changes after publish
+## Changes after publish
 
 2020-10-02: Clearified some usages of `prettier`
