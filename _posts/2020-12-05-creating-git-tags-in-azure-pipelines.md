@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Creating git tags from your pipeline"
+title: "Creating git tags in your pipeline"
 date: "2020-12-05"
 categories:
   - Tiny Tutorials
