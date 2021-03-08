@@ -6,7 +6,6 @@ categories:
   - Security
 tags:
   - Infrastructure
-  - Tools
   - Docker
   - Networking
 excerpt: "Do you use Docker on cloud hosted machines and expose container ports to the host? Then this might be worth a read"
