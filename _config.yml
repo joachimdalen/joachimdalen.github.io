@@ -86,11 +86,6 @@ permalink: /:year/:month/:day/:title
 after_footer_scripts:
   - https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js
   - assets/js/cookies.js
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "UA-92673135-5"
-    anonymize_ip: true
 footer:
   links:
     - label: "Cookies & Privacy"
